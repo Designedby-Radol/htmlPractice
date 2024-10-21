@@ -9,8 +9,26 @@
 <body>
     <div class="tarjeta">
         <h2 class="titulo">Mapa De Colombia</h2>
-        <img class="imagen" src="/img/polonia.png" alt="Imagen de la tarjeta">
-        <button class="boton">Departamentos</button>
-    </div>
+        <img class="imagen" src="/img/polonia.png" alt="Imagen de la tarjeta" usemap="#image-map" >
+        
+        <div class="marker bogota"  onclick="window.location.href='dep1.html'" title="Bogotá"></div>
+        <div class="marker antioquia" onclick="window.location.href='dep2.html'" title="Antioquia"></div>
+        <div class="marker valle" onclick="window.location.href='dep3.html;'" title="Valle del Cauca"></div>
+        <div class="marker atlantico" onclick="window.location.href='dep4.html'" title="Atlántico"></div>
+        <div class="marker amazonas" onclick="window.location.href='dep5.html'" title="Amazonas"></div>
+        
+        <!-- <map name="image-map">
+            <area shape="circle" coords="500,280,20" alt="Bogotá" href="https://es.wikipedia.org/wiki/Bogot%C3%A1">
+            
+            <area shape="poly" coords="450,220,470,260,490,230,460,200" alt="Antioquia" href="https://es.wikipedia.org/wiki/Antioquia">
+            
+            <area shape="rect" coords="300,500,350,550" alt="Valle del Cauca" href="https://es.wikipedia.org/wiki/Valle_del_Cauca">
+            
+            <area shape="circle" coords="600,120,30" alt="Atlántico" href="https://es.wikipedia.org/wiki/Atl%C3%A1ntico_(Colombia)">
+            
+            <area shape="poly" coords="850,650,870,700,880,670,860,620" alt="Amazonas" href="https://es.wikipedia.org/wiki/Amazonas_(Colombia)">
+        </map> -->
+    
+    </div>  
 </body>
 </html>
