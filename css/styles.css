@@ -17,12 +17,22 @@ body{
     border-radius: 15px;
 }
 
+.tarjeteta { 
+    width: 80px;
+    height: 200px;
+    background-color: rgb(0 0 0 / .5);
+    color: #fff;
+    padding: 20px; 
+    text-align:justify; 
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
 .titulo {
     margin-bottom: 20px;
 }
-
 .imagen {
-    width: 100%; 
+    width: 500px; 
     height: 700px; 
     object-fit: cover; 
     margin-bottom: 20px; 
@@ -33,6 +43,7 @@ body{
     height: 40px; 
     background-color: #4CAF50; 
     color: #fff; 
+    margin-top: 40px;
     border: none; 
     cursor: pointer; 
 }
