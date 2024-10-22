@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
     background: rgb(65,100,34);
     background: linear-gradient(90deg, rgba(65,100,34,1) 0%, rgba(88,124,56,1) 25%, rgba(112,147,78,1) 50%, rgba(135,171,100,1) 75%, rgba(158,194,122,1) 100%);
     display: flex;
@@ -11,7 +18,7 @@ body{
     width: 666px;
     height: 769px;
     background-color: rgb(0 0 0 / .5);
-    color: #fff;
+    color: #c2c6c9;
     padding: 20px; 
     text-align: center; 
     border-radius: 15px;
@@ -34,22 +41,28 @@ body{
 .imagen {
     width: 500px; 
     height: 700px; 
-    object-fit: cover; 
+    object-fit:contain; 
     margin-bottom: 20px; 
+    margin-top: 20px; 
 }
 
 .boton {
-    width: 100%; 
+    width: 500px; 
     height: 40px; 
     background-color: #4CAF50; 
-    color: #fff; 
-    margin-top: 40px;
+    color: #000000; 
+    margin-top: 20px;
     border: none; 
     cursor: pointer; 
+    border-radius: 12px;
 }
 
 .boton:hover {
     background-color: #3e8e41; 
+}
+
+a{  
+    color:#c2c6c9;
 }
 
 .map-container {
@@ -62,23 +75,3 @@ body{
     width: 100%;
     height: 100%;
 }
-
-
-.marker {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: transform 0.2s;
-}
-
-.marker:hover {
-    transform: scale(1.5); 
-}   
-
-.bogota { top: 49%; left: 47.5%; background-color: rebeccapurple; } 
-.antioquia { top: 40%; left: 45%;  background-color: greenyellow;} 
-.valle { top: 50%; left: 44%;   background-color: blue;} 
-.atlantico { top: 29%; left: 47%;  background-color: rgb(197, 158, 85); } 
-.amazonas { top: 68%; left: 53%;  background-color: rgb(0, 255, 234); } 
